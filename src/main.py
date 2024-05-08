@@ -1,10 +1,7 @@
 import os
 from loguru import logger
-
 from src.create_markdown import generate_markdown_from_projects, generate_markdown_from_content
-from src.get_data import parse_readme_sections, extract_section_from_readme, extract_urls_and_images, \
-    parse_readme_subsubsections
-
+from src.get_data import parse_readme_sections, extract_section_from_readme, extract_urls_and_images, parse_readme_subsubsections
 from src.get_images import take_screenshot
 
 if __name__ == '__main__':
